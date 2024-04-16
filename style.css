@@ -1,0 +1,428 @@
+/* Общие стили */
+.header {
+    position: absolute;
+    width: 1491px;
+    height: 73px;
+    left: 201px;
+    top: 40px;
+}
+
+/* Лого */
+.logo {
+    width: 175px;
+    height: 73px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Пункты меню */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-item {
+    width: 147px;
+    height: 30px;
+    margin-right: 20px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.text{
+    /* Преодолевайте высоты с HISSEN */
+position: absolute;
+width: 731px;
+height: 155px;
+left: 200px;
+right: 1015px;
+top: 262px;
+bottom: 5604px;
+/* H1 */
+font-family: Inter;
+font-size: 60px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text2{
+    /* Экспертные решения в области подъемного оборудования для Вашего бизнеса - это наша работа. */
+position: absolute;
+width: 767px;
+height: 143px;
+left: 200px;
+top: 462px;
+    /* P1 */
+color: rgb(119, 119, 119);
+font-family: Inter;
+font-size: 34px;
+font-weight: 300;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* Стили для фото */
+.photo {
+    position: absolute;
+    width: 646px;
+    height: 850px;
+    left: 1100px;
+    top: 0px;
+    border-radius: 0px; /* Углы не закругляются */
+    opacity: 1; /* Непрозрачность 100% */
+    mix-blend-mode: normal; /* Обычное наложение */
+    object-fit: fill; /* Изображение заполняет контейнер */
+    background: url(../testpage/images/foto1.png); /* Путь к изображению */
+    z-index: -1; /* Помещаем фото на задний план */
+}
+
+/* Button styles */
+.button {
+    width: auto;
+    height: auto;
+    padding: 15px 30px;
+    background-color: rgb(235, 109, 27); /* Orange background */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: rgb(235, 109, 27); /* Orange background on hover */
+  }
+  
+  /* Text color */
+  .button span {
+    color: #ffffff; /* White text color */
+  }
+  
+  /* Frame styles */
+  .frame {
+    position: absolute;
+    width: 334px;
+    height: 94px;
+    left: 200px;
+    top: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(235, 109, 27); /* Orange background */
+  }
+  
+  .textpage2{
+    position: absolute;
+    width: 282px;
+    height: 58px;
+    left: 200px;
+    right: 1438px;
+    top: 1060px;
+    bottom: 4928px;
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .textpage3{
+    position: absolute;
+    width: 500px;
+    height: 58px;
+    left: 200px;
+    top: 1950px;
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  textpage3{
+    color: rgb(34, 34, 34);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+
+  .photopage2{
+
+    position: absolute;
+    width: 817px;
+    height: 562px;
+    left: 0;
+    right: 1103px;
+    top: 1208px;
+    bottom: 4276px;
+  }
+  
+  
+
+  /* Image within the photo */
+  .photopage2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  
+  .text-block-page2{
+    position: absolute;
+    width: 775px;
+    height: 480px;
+    left: 945px;
+    right: 200px;
+    top: 1249px;
+    bottom: 4317px;
+  }
+  
+  /* Text within the block */
+  text-block-page2{
+    color: rgb(119, 119, 119); /* Gray text color */
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  
+
+/* Цвета для пунктов меню */
+/* .about {
+    color: rgb(235, 109, 27);
+}
+
+.catalog {
+    color:  rgb(34, 34, 34);
+}
+
+.contacts {
+    color: rgb(34, 34, 34);
+} */
+.about:hover { /* При наведении на пункт меню "Каталог" */
+    color: rgb(235, 109, 27); /* Изменяем цвет текста на оранжевый */
+}
+
+.catalog:hover { /* При наведении на пункт меню "Каталог" */
+    color: rgb(235, 109, 27); /* Изменяем цвет текста на оранжевый */
+}
+
+
+.contacts:hover { /* При наведении на пункт меню "Контакты" */
+    color: rgb(235, 109, 27); /* Изменяем цвет текста на оранжевый */
+}
+
+
+.order-call:hover { /* При наведении на пункт меню "Заказать звонок" */
+    color: rgb(235, 109, 27); /* Изменяем цвет текста на оранжевый */
+}
+
+.order-call {
+    width: 222px;
+    height: 68.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid rgb(235, 109, 27);
+    border-radius: 10px;
+    color: rgb(235, 109, 27);
+}
+/* page 4 */
+.item-item-01 {
+    position: absolute;
+    width: 99px;
+    height: 58px;
+    left: 0%;
+    right: 72.27%;
+    top: 0%;
+    bottom: 75.32%;
+  }
+  
+  .item-item-01 h2 {
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .item-item-01 p {
+    color: rgb(119, 119, 119);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .item-item-01{
+    /* Group 174 */
+    position: absolute;
+    width: 357px;
+    height: 235px;
+    left: 200px;
+    right: 1363px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+  
+  
+  /* .item-item-02 */
+
+/* Стили для пункта 2 */
+.item-item-02 {
+    position: absolute;
+    width: 358px;
+    height: 235px;
+    left: 587px;
+    right: 975px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+  
+  .item-item-02 h2 {
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .item-item-02 p {
+    color: rgb(119, 119, 119);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+
+  .item-item-02{
+    /* Group 175 */
+    position: absolute;
+    width: 358px;
+    height: 235px;
+    left: 587px;
+    right: 975px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+
+  
+  /* Стили для пункта 3 */
+  .item-item-03 {
+    position: absolute;
+    width: 357px;
+    height: 235px;
+    left: 975px;
+    right: 588px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+  
+  .item-item-03 h3 {
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .item-item-03 p {
+    color: rgb(119, 119, 119);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .item-item-03{
+    /* Group 176 */
+    position: absolute;
+    width: 357px;
+    height: 235px;
+    left: 975px;
+    right: 588px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+  
+  /* Стили для пункта 4 */
+  .item-item-04 {
+    position: absolute;
+    width: 358px;
+    height: 235px;
+    left: 1362px;
+    right: 200px;
+    top: 2098px;
+    bottom: 3713px;
+  }
+  
+  .item-item-04 h3 {
+    color: rgb(34, 34, 34);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .item-item-04 p {
+    color: rgb(119, 119, 119);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .item-item-04{
+    /* Group 177 */
+    position: absolute;
+    width: 358px;
+    height: 235px;
+    left: 1362px;
+    right: 200px;
+    top: 2098px;
+    bottom: 3713px;
+  }
